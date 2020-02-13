@@ -1,0 +1,26 @@
+.logout-div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    span {
+        cursor: pointer;
+    }
+}
+.list-wrap{
+    min-height: 300px;
+}
+
+.list {
+    li {
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+}
+.no-data-found {
+    text-align: center;
+    background: rgb(200, 200, 200);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
